@@ -30,7 +30,9 @@ group :doc do
 end
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
 gem 'quiet_assets'
+
 gem 'foreman'
 
 group :production, :staging do
