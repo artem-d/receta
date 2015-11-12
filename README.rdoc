@@ -1,28 +1,19 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+= AngularJS with RoR test app
+== Test app by David Bryant Coperland for the "AngularJS with Ruby on Rails" tutorial.
 
-Things you may want to cover:
+Deployed to https://receta-testapp.herokuapp.com
 
-* Ruby version
+To run locally:
 
-* System dependencies
+* clone it
+* bundle install
+* rake db:setup
+* rails s
 
-* Configuration
+To run tests:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+JS tests:
+* rake teaspoon
+Specs and browser tests:
+* rspec
